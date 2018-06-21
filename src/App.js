@@ -11,7 +11,7 @@ class App extends Component {
       console.log("hablale");
       axios({
         method: "POST",
-        url: "http://localhost:4000/api/send",
+        url: "http://192.241.148.227:4000/api/send",
         data: {
           email: person
         }
